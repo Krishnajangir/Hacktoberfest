@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background: #F7EDE2;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.copy-text{
+  border: 2px solid #111;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 350px;
+  width: 800px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  border-radius: 2px;
+}
+
+.copy-btn{
+  padding: 12px 32px;
+  border: 0px;
+  background: #3F88C5;
+  color: white;
+  width: 120px;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.copied{
+  background: #04AA6D;
+  transition: 0.5s;
+}
+
